@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  margin: 0;
+}
+
+article {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;  
+}
+
+body {
+  background-color: #264653;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #264653;
+  margin: 10px 10px 20px 10px;
+  padding: 15px;
+}
+
+h1 {
+  background-color: #f4a261;
+}
+
+h2 {
+  background-color: #e76f51;
+}
+
+footer,
+h1,
+h2,
+.meme_box {
+  border-radius: 10px;
+  box-shadow: 7px 7px 10px 1px rgba(233, 196, 106, 0.3);
+}
+
+footer {
+  background-color: #e76f51;
+  color: #e9c46a;
+  margin: 0 15px 15px 15px;
+  padding: 5px;
+}
+
+img {
+  width: inherit;
+}
+
+.meme_box {
+  background-color: #2a9d8f;
+  border-color: #e76f51;
+  border-style: solid;
+  border-width: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 75%;
+}
+
+/* 
+COLOR SCHEME
+#264653 darkteal
+#2a9d8f lightteal
+#e9c46a yellow
+#f4a261 lightorange
+#e76f51 darkorange
+ */
